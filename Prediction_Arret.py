@@ -25,7 +25,7 @@ uploaded_file = st.sidebar.file_uploader(
     type=["csv"], 
     help="Format accepté : .csv uniquement"
 )
-st.sidebar.info("📎 Le fichier doit contenir les colonnes : Date, Equipements, Temps d'immobilisation, etc.")
+st.sidebar.info("📎 Le fichier doit contenir les colonnes : Date, Equipements, Temps d'immobilisation")
 
 # === ÉTAPE 1 : Chargement du fichier ===
 if uploaded_file:
